@@ -20,7 +20,7 @@ There is also an visualization. You can disconnect and connect, change Broker or
 
   For first setup you need to add your WiFi an Broker User/Password Compinations. Also you neet to select an approprative MQTT Broker. Then run the setup method once. You can find the loc within the Task List.
 
-- RaspPi3.RESTfulWebServices<b>
+- RaspPi3.RESTfulWebServices<br>
 In progress...
 
 Comming soon:
