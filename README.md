@@ -24,6 +24,5 @@ There is also an visualization. You can disconnect and connect, change Broker or
 In progress...
 
 Comming soon:
-- Connect to WiFi network
 - Calling Azure WebServices
 - Store Messages in Azure
