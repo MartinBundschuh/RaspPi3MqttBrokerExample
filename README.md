@@ -17,6 +17,7 @@ I wrote a similar class to the DbContext, since EF is not usable in ARM runtime.
 To send and receive messages via the broker I use Json serialization.
 To be able to extend the poject easily for further classes, I wrote custom Attributes to extend functionallity almost only with DataAnnotations. Ther has only to be added an ObservableCollection to te SQLiteHandler.
 There is also an visualization. You can disconnect and connect, change Broker or Port information and have a littel overview of the latest received and sent messages.
+The Raspberry Pi will connect to an WiFi network if theres no lan connection detected.
 
   For first setup you need to add your WiFi an Broker User/Password Compinations. Also you neet to select an approprative MQTT Broker. Then run the setup method once. You can find the loc within the Task List.
 
