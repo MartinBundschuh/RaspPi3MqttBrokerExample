@@ -3,7 +3,7 @@
 Raspberry Pi 3 Project using the MQTT protocoll.
 
 This Project shows how to host an MQTT broker from RaspberryPi 3. The goal ist to controll Pi from Windows phone.
-There are three different projects.
+There are three different projects:
 
 - RaspPi3.MqttBrokerHost<br>
 Here it is shown, how to host a local MQTT broker on an Raspberry Pi with Windows IoT Core. The broker is running on a background task. The project takes use of the GnatMQ Framework.
