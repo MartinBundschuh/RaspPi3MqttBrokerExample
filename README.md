@@ -8,7 +8,7 @@ There are three different projects.
 - RaspPi3.MqttBrokerHost
 Here it is shown, how to host a local MQTT broker on an Raspberry Pi with Windows IoT Core. The broker is running on a background task. The project takes use of the GnatMQ Framework.
 
-- RaspPi3.MqttBrokerHostVisual
+- RaspPi3.MqttBrokerHostVisual<br>
 In addition to the first project, you can see the broker hosting status. It's possbile to stop and rerun the broker. The project is written as an Universal Windows App. The Okra Framework is used to handle the MVVM pattern.
 
 - RaspPi3.MqttBrokerPiConsumer
