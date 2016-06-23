@@ -7,6 +7,7 @@ using Owin;
 using RaspPi3.WebApi.Models;
 using RaspPi3.WebApi.Providers;
 using System;
+using System.Diagnostics;
 
 namespace RaspPi3.WebApi
 {
@@ -66,8 +67,9 @@ namespace RaspPi3.WebApi
             //    consumerSecret: "");
 
             app.UseFacebookAuthentication(
-                appId: "1792373587649326",
-                appSecret: "82a704d242572cdd2b52e8e511ad85c6");
+                appId: Debugger.IsAttached ? "1792766500943368" : "1792373587649326",
+                appSecret: Debugger.IsAttached ? "8186ec697b9736317d44ad948b488627" : "82a704d242572cdd2b52e8e511ad85c6");
+
 
             app.UseGoogleAuthentication(
                 clientId: "803640876269-nd9f1shtgdikq33hb62b9u47a5d49bji.apps.googleusercontent.com",
