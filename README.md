@@ -20,10 +20,13 @@ There is also an visualization. You can disconnect and connect, change Broker or
 The Raspberry Pi will connect to an WiFi network if theres no lan connection detected.
 
   For first setup you need to add your WiFi an Broker User/Password Compinations. Also you neet to select an approprative MQTT Broker. Then run the setup method once. You can find the loc within the Task List.
+  It also supports Barere Token authorized Http client. Saving the messages now on Azure using RESTful Api.
 
-- RaspPi3.<b>RESTfulWebServices</b> and RaspPi3.<b>WebRole</b><br>
-In progress...
+- RaspPi3.<b>RESTful Web.Api</b> and RaspPi3.<b>WebRole</b><br>
+ASP.NET Web.Api ust hostet on Azure. It is connected to Azure DB. Ther is a basic API to select, insert (a.s.o) messages. The API is secured. You can use external logins or register. Either way, the email has to be confirmed to be able to use the API.
+Authentification is realisied with Bearer tokens.
 
 Comming soon:
-- Calling Azure WebServices
-- Store Messages in Azure
+- More use-cases
+- Administration page
+- Register devices on the fly
