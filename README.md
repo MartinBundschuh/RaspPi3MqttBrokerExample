@@ -1,4 +1,4 @@
-# RaspPi3MqttBrokerExample
+# rasp-pi3-mqtt-broker-example
 
 Raspberry Pi 3 Project using the MQTT protocoll.
 
